@@ -7,6 +7,10 @@ Admissions were broadly distributed across the six medical conditions, with Art
 Limitations:
 The dataset is synthetic, so observed patterns may not represent real-world healthcare populations or costs. Length of stay was effectively constant at 30 days, limiting its usefulness for comparative analysis, and the dataset does not establish causal relationships between medications, conditions, billing, or test outcomes. Hospital-level comparisons are restricted to hospitals with 30+ admissions, and hospital/doctor names should not be interpreted as representing real entities or operational performance. The apparent decline in admissions in 2024 also reflects a partial-year dataset, so 2024 should not be compared directly with the preceding full years.
 
+SQL Analysis: The project uses PostgreSQL for data cleaning, exploratory analysis, aggregation, 
+window functions, and hospital-level performance analysis.
+[View SQL analysis](sql/healthcare_analysis.sql)
+
 Tableau Link: https://public.tableau.com/views/HealthcareAdmissionsAnalysis/HealthcareAnalytics?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 <img width="1244" height="902" alt="Screenshot 2026-08-23 at 2 39 59 PM" src="https://github.com/user-attachments/assets/a6e07962-09db-43a1-9d09-0aa0dddaa99a" />
